@@ -6,6 +6,9 @@
  * Time: 14:17
  */
 
+ini_set('display_errors', 1);
+define('DEBUG', true);
+
 $journal = $_GET['journals'];
 $chekboxes = $_GET['checkboxes'];
 

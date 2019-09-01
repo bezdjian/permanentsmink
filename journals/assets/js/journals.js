@@ -72,7 +72,7 @@ $(document).ready(function(){
 
         var data = {
             'journalID': journalID,
-            'remisfrom': remisfrom,
+            'remissfrom': remisfrom,
             'efternamn': efternamn,
             'fornamn': fornamn,
             'birthdate': birthdate,
@@ -82,7 +82,7 @@ $(document).ready(function(){
             'email': email,
             'sysselsattning': sysselsattning,
             'telarb': telarb,
-            'vestlandsdiagnos': vestlandsdiagnos,
+            'vesterlandsk_diagnos': vestlandsdiagnos,
             'tcmdiagnos': tcmdiagnos
         };
 
