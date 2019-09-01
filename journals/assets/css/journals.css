@@ -1,0 +1,121 @@
+input{
+	border:0;
+	border-bottom:2px solid #efefef;
+}
+
+#searchname{
+	width: 80%;
+}
+
+.table tr td{
+	text-align: left;
+}
+
+.table tr td input{
+	width: 100%;
+}
+
+.table tr td label input{
+	width: 45px;
+	float: right;
+	margin: 9px 0 0;
+}
+
+.table textarea{
+	border: 1px solid #efefef;
+	width: 100%;
+	min-height:150px;
+	height:100%;
+}
+
+#header{
+	width: 200px;
+}
+#main, #footer{
+	margin-left: 200px;
+}
+#footer{
+	padding:1em 1em;
+}
+
+.container{
+	width: 90%;
+}
+
+.humanbody_table tr td,
+.diagnos_table tr td{
+	border:0 !important;
+}
+
+.humanbody_table label{
+	float: left;
+}
+
+#buttons{
+	padding: 1em 2px;
+}
+
+#savemsg{
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding:8px;
+	margin-top: 1em;
+}
+
+#efternamntd, #fornamntd{
+	width: 20%;
+}
+#remissfromtd{
+	width:10%;
+}
+
+.checbox-div{
+	display: inline-table;
+	width: 100%;
+}
+
+.humanbody_table label{
+	width: 50%;
+	font-size: .85em;
+}
+
+.btn-sm{
+	font-size: 20px;
+}
+
+@media screen and (max-width: 960px) {
+	#main, #footer{
+		margin-left: 0;
+	}
+}
+
+.modal {
+	display:    none;
+	position:   fixed;
+	z-index:    1000;
+	top:        0;
+	left:       0;
+	height:     100%;
+	width:      100%;
+	background: rgba( 255, 255, 255, .8 )
+	url('http://i.stack.imgur.com/FhHRx.gif')
+	50% 50%
+	no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+	overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+	display: block;
+}
+
+.dataTables_wrapper .dataTables_filter input{
+	width: 425px;
+}
